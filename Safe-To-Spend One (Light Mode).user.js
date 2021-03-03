@@ -20,6 +20,6 @@
     }
 
     addGlobalStyle('.StyledHeader-sc-1zehgg.Fexki, button[data-cy="bridge-summary"] {display:none !important;}');
-    addGlobalStyle('button[aria-label="Spend pocket details"] div {font-size: 30px !important;}');
+    addGlobalStyle('button[aria-label="Spend pocket details"] div {font-size: 30px !important;line-height:30px;}');
     addGlobalStyle('button[aria-label="Spend pocket details"] div.PocketContentDiv-sc-1kwy879.spending.StyledPocketTitleDiv-sc-1x61pf6:before {content: "Safe to " !important;}');
 })();
