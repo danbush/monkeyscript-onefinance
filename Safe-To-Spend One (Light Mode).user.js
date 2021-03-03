@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Safe-To-Spend One Light Mode
 // @namespace    http://tampermonkey.net/
-// @version      0.51
+// @version      0.53
 // @description  Hide the total cash number, more.
 // @author       Dan Bush
 // @match        https://web.onefinance.com/*
