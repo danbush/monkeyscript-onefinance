@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Safe-To-Spend One
 // @namespace    http://tampermonkey.net/
-// @version      0.53
+// @version      0.54
 // @description  Hide the total cash number, dark mode, more.
 // @author       Dan Bush
 // @match        https://web.onefinance.com/*
