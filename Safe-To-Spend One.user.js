@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Safe-To-Spend One
 // @namespace    http://tampermonkey.net/
-// @version      0.55
+// @version      0.56
 // @description  Hide the total cash number, dark mode, more.
 // @author       Dan Bush
 // @match        https://web.onefinance.com/*
@@ -25,7 +25,7 @@
 
     addGlobalStyle('html { filter: invert(90%) hue-rotate(180deg) !important;}');
     addGlobalStyle('body img {filter: invert(90%) hue-rotate(180deg) contrast(1.01) saturate(1.03) brightness(1.02) !important;}');
-    addGlobalStyle('.StyledPocketsLi-sc-17s7uta.eLbUJd {filter: invert(90%) hue-rotate(180deg) contrast(1.01) saturate(1.03) brightness(1.02) !important;}');
+    addGlobalStyle('.StyledPocketsLi-sc-17s7uta {filter: invert(90%) hue-rotate(180deg) contrast(1.01) saturate(1.03) brightness(1.02) !important;}');
     addGlobalStyle('.PocketContentDiv-sc-1kwy879 {color:#ffffff !important;}');
     addGlobalStyle('.StyledPocketContainerDiv-sc-cuylsu {background-color:#020202 !important;}');
     addGlobalStyle('.StyledNavBarContainerDiv-sc-11si6lv {border-top: 0px solid #ffdc0a; !important;}');
